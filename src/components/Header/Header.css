@@ -1,29 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    --pink: #E409AC;
-    --yellow: #FFC60A;
-    --blue: #00B1FD;
-  }
-  
-  body {
+import styled from 'styled-components';
+
+export const Heading = styled.header`
     background-color: white;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  #title {
-    font-family: 'Chango', cursive;
-  }
+  `}
   
   /* Above the Fold White Section */
   #white-half1 {
