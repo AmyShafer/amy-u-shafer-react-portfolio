@@ -4,10 +4,10 @@ import projects from '../../Project/projectList';
 import './PortfolioStyles.css';
 
 function Portfolio() {
-    return (
-        <section className="portfolio">
-            <h1 id="portolio-header">Portfolio</h1>
-            <Project projects={projects} />
+    return ( 
+        <section className = "work" >
+          <h1 id = "work-header" > Work </h1>
+          <Project projects = {projects}/>
         </section>
     )
 }
