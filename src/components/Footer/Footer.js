@@ -1,11 +1,13 @@
 import React from 'react';
-import '../styles/Footer.css';
+import './FooterStyles';
 
 function Footer() {
-    return ( <footer className="footer">
-    <h1>Footer</h1>
-  </footer>
-    );
+  return ( < footer className = "footer" >
+    <
+    h1 > Footer < /h1> <
+    p > Amy Shaferⓒ 2022 < /p> <
+    /footer>
+  );
 }
 
 export default Footer;

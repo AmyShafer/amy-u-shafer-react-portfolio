@@ -1,4 +1,7 @@
+import styled from 'styled-components';
 
+/* Above the Fold White Section */
+export const WhiteHalf1 = styled.header`
   /* Work Section */
   .work {
     margin: 600px 0 10px 0;

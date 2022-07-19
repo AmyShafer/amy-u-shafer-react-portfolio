@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
 import { WhiteHalf1, Title, BlueSquare, YellowSquare, PinkSquare } from './HeaderStyles';
-import '../styles/Header.css';
+import '.HeaderStyles';
 
 function Header(props) {
   return ( 

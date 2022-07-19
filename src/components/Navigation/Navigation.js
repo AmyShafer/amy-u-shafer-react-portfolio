@@ -11,7 +11,7 @@ import {
 
 function Navigation(props) {
   const hyperLinks = ['About', 'Work', 'Contact'];
-  return ( <nav> {
+  return ( < nav > {
       hyperLinks.map(hyperLink => ( <
         NavItem key = {
           hyperLink
@@ -21,7 +21,7 @@ function Navigation(props) {
           '#' + hyperLink.toLowerCase()
         }
         onClick = {
-          () => props.handlePageChange(tab)
+          () => props.handlePageChange(hyperLink)
         } > {
           hyperLink
         } <
