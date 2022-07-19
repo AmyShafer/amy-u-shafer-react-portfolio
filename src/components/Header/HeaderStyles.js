@@ -1,87 +1,59 @@
 import styled from 'styled-components';
 
-export const Heading = styled.header`
-    background-color: white;
-  `}
+/* Above the Fold White Section */
+export const WhiteHalf1 = styled.header`
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 500px;
+  margin-bottom: 5px;
+  justify-content: center;
+  background-color: white;  
+`;
   
-  /* Above the Fold White Section */
-  #white-half1 {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 500px;
-    margin-bottom: 5px;
-    justify-content: center;
-    background-color: white;
-  }
+export const Title = styled.h1`
+  font-family: 'Chango', cursive
+`; 
+
+/* blue square is stationary */
+export const BlueSquare = styled.div`
+  position: absolute;
+  margin-top: 135px;
+  width: 300px;
+  height: 300px; 
+  background-color: var(--blue);
+  justify-content: center;
+  align-content: center;
+`;
   
-  /* blue square is stationary */
-  #blue-square {
-    position: absolute;
-    margin-top: 135px;
-    width: 300px;
-    height: 300px; 
-    background-color: var(--blue);
-    justify-content: center;
-    align-content: center;
-  }
+/* yellow square is faster */
+export const YellowSquare = styled.div`
+  position: absolute;
+  margin-top: 135px;
+  width: 300px;
+  height: 300px; 
+  background-color: var(--yellow);
+  opacity: 0.75;
+  justify-content: center;
+  align-content: center;
+  -webkit-animation: rescale 2s infinite;
+  animation: rescale 2s infinite;
+`;
   
-  /* yellow square is faster */
-  #yellow-square {
-    position: absolute;
-    margin-top: 135px;
-    width: 300px;
-    height: 300px; 
-    background-color: var(--yellow);
-    opacity: 0.75;
-    justify-content: center;
-    align-content: center;
-    -webkit-animation: rescale 2s infinite;
-    animation: rescale 2s infinite;
-  }
+/* pink square is slower */
+export const PinkSquare = styled.div`
+  position: absolute;
+  margin-top: 135px;
+  width: 300px;
+  height: 300px; 
+  background-color: var(--pink);
+  opacity: 0.83;
+  justify-content: center;
+  align-content: center;
+  -webkit-animation: rescale 1s infinite;
+  animation: rescale 4s infinite;
+`;
   
-  /* pink square is slower */
-  #pink-square {
-    position: absolute;
-    margin-top: 135px;
-    width: 300px;
-    height: 300px; 
-    background-color: var(--pink);
-    opacity: 0.83;
-    justify-content: center;
-    align-content: center;
-    -webkit-animation: rescale 1s infinite;
-    animation: rescale 4s infinite;
-  }
-  
-  /* Animation for the Squares */
-  @-webkit-keyframes rescale {
-    0% {transform:rotate(0deg);}
-    10% {transform:rotate(36deg);}
-    20% {transform:rotate(72deg);}
-    30% {transform:rotate(108deg);}
-    40% {transform:rotate(144deg);}
-    50% {transform:rotate(180deg);}
-    60% {transform:rotate(216deg);}
-    70% {transform:rotate(252deg);}
-    80% {transform:rotate(288deg);}
-    90% {transform:rotate(334deg);}
-    100% {transform:rotate(360deg);}
-  }
-  
-  /* Animation for the Squares */
-  @keyframes rescale {
-    0% {transform:rotate(0deg);}
-    10% {transform:rotate(36deg);}
-    20% {transform:rotate(72deg);}
-    30% {transform:rotate(108deg);}
-    40% {transform:rotate(144deg);}
-    50% {transform:rotate(180deg);}
-    60% {transform:rotate(216deg);}
-    70% {transform:rotate(252deg);}
-    80% {transform:rotate(288deg);}
-    90% {transform:rotate(334deg);}
-    100% {transform:rotate(360deg);}
-  }
+  /* I moved the animation for the squares */

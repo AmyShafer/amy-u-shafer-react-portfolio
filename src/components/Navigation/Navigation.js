@@ -1,20 +1,36 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
-import '../styles/Navigation.css';
+import {
+  BlackHalf1,
+  AboutMeLink,
+  WorkLink,
+  ContactMeLink,
+  nav,
+  NavItem,
+  NavLink
+} from './NavigationStyles';
 
-function Navigation() {
-  return (
-    <>
-      <navbar className="navbar">
-        <h1>Navigation</h1>
-        {/* Links to slash route -- about me */}
-        <Link to="/">Home</Link> 
-        {/* Links to work */}
-        <Link to="/">Home</Link> 
-        {/* Links to contact */}
-        <Link to="/">Home</Link> 
-      </navbar>
-    </>
+function Navigation(props) {
+  const hyperLinks = ['About', 'Work', 'Contact'];
+  return ( <
+    nav > {
+      hyperLinks.map(hyperLink => ( <
+        NavItem key = {
+          hyperLink
+        } >
+        <
+        NavLink href = {
+          '#' + hyperLink.toLowerCase()
+        }
+        onClick = {
+          () => props.handlePageChange(tab)
+        } > {
+          hyperLink
+        } <
+        /NavLink> < /
+        NavItem >
+      ))
+    } <
+    /nav>
   );
 }
 
