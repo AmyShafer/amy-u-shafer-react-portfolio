@@ -52,16 +52,14 @@ function Project(props) {
 
           <div class="container">
             <div id="work-square">
-              <!-- Deployment Link -->
+            {/*  Deployment Link  */}
               <a href="#" target="_blank" data-set="4"></a>
             </div>
-
-            <!-- Month/Year -->
+             {/*  Month/Year  */}
             <div id="work-circle">
               <a href="#" target="_blank" data-set="5"></a>
             </div>
-
-            <!-- Repo Link -->
+             {/*  Repo Link */}
             <div id="work-triangle">
               <a href="#" target="_blank" data-set="6"></a>
             </div>

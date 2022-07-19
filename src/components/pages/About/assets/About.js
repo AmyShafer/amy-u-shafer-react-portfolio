@@ -21,8 +21,8 @@ function About() {
         <
         div id = "BlueCircle" > < /div> <
         div id = "YellowCircle" > < /div> <
-        div id = "PinkCircle" > < /div> <
-        /section> <
+        div id = "PinkCircle" > < /div> < /
+        section > <
         section id = "BlackHalf2" > < /section> <
         section id = "WhiteHalf2" >
         <
@@ -41,8 +41,8 @@ function About() {
         p >
         My name is Amy Shafer and I am learning about web development.It 's
         going pretty well so far but the circles are supposed to be doing something completely different. <
-        /p> <
-        /section> <
+        /p> < /
+        section > <
         /section>
     )
 }
