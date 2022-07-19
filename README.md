@@ -44,11 +44,11 @@ I would also like to improve the resume download feature.
 
 ## Github-url
 
-<a href="https://github.com/AmyShafer/Amy-U-Shafer-Portfolio" target="_blank"> Amy U. Shafer's react Portfolio Repository </a>
+<a href="https://github.com/AmyShafer/amy-u-shafer-react-portfolio" target="_blank"> Amy U. Shafer's React Portfolio Repository </a>
 
 ## Deployed-url
 
-<a href="https://amyshafer.github.io/Amy-U-Shafer-Portfolio/" target="_blank"> Amy U. Shafer's React Portfolio Deployment URL </a>
+<a href="https://amyshafer.github.io/amy-u-shafer-react-portfolio/" target="_blank"> Amy U. Shafer's React Portfolio Deployment URL </a>
 
 ## Author
 

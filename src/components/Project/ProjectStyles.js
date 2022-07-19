@@ -124,11 +124,23 @@ work - square {
 }
 
 /* The font gets bigger when the user hovers over the link */
-# work - square a: hover, #work - circle a: hover, #work - triangle a: hover {
+export const WorkSquare = styled.a`
   font - size: 2.5 em;
   font - family: 'Homemade Apple', cursive;
   color: black;
-}
+`;
+
+export const WorkTriangle = styled.a`
+  font - size: 2.5 em;
+  font - family: 'Homemade Apple', cursive;
+  color: black;
+`;
+
+export const WorkCircle = styled.a`
+  font - size: 2.5 em;
+  font - family: 'Homemade Apple', cursive;
+  color: black;
+`;
 
 export const BlackHalf3 = styled.section `
   display: flex;
@@ -194,8 +206,7 @@ export const PinkTriangle = styled.div `
 /* I removed animation from this spot */
 
 /* After the user selects a project to view, the triangles change to a gif of the project */
-#
-project - gif {
+export const ProjectGif = styled.img `
   display: flex;
   margin: 7 % ;
   justify - content: center;
@@ -204,4 +215,4 @@ project - gif {
   height: auto;
   border - radius: 3 em;
   z - index: 1;
-}
+`;
