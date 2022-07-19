@@ -11,8 +11,7 @@ import {
 
 function Navigation(props) {
   const hyperLinks = ['About', 'Work', 'Contact'];
-  return ( <
-    nav > {
+  return ( <nav> {
       hyperLinks.map(hyperLink => ( <
         NavItem key = {
           hyperLink
