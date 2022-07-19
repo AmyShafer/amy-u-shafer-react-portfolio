@@ -1,5 +1,5 @@
 import React from "react";
-import './ProjectStyles.css';
+import './ProjectStyles.js';
 import "../styles/Project.css";
 
 function Project(props) {
