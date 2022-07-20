@@ -1,7 +1,6 @@
 import React, {
     useState
 } from 'react';
-import './ContactStyles.css';
 
 function ContactForm() {
     const [formState, setFormState] = useState({
@@ -9,6 +8,7 @@ function ContactForm() {
         email: '',
         message: ''
     });
+
     const [errorMessage, setErrorMessage] = useState('');
     const {
         name,
@@ -19,77 +19,71 @@ function ContactForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!errorMessage) {
-            console.log('Send'
+            console.log('Send Form: ',
                 formState);
         }
-    }
-};
+    };
 
-const handleChange = (e) => {
-    if (e.target.name === 'email') {
-        const isValid = validateEmail(e.target.value);
-        if (!isValid) {
-            setErrorMessage('Your email is kapot!');
+    const handleChange = (e) => {
+        if (e.target.name === 'email') {
+            const isValid = validateEmail(e.target.value);
+            if (!isValid) {
+                setErrorMessage('Your email is kapot!');
+            } else {
+                setErrorMessage('');
+            }
         } else {
-            setErrorMessage('');
+            if (!e.target.value.length) {
+                setErrorMessage(`Please enter your {e.target.name}.`)
+            } else {
+                setErrorMessage('');
+            }
         }
-    } else {
-        if (!e.target.value.length) {
-            setErrorMessage(`Please enter your {e.target.name}.`)
-        } else {
-            setErrorMessage('');
+        if (!errorMessage) {
+            setFormState({
+                ...formState,
+                [e.target.name]: e.target.value
+            });
+            console.log('Handle Form', formState);
         }
-    }
-    if (!errorMessage) {
-        setFormState({
-            ...formState,
-            [e.target.name]: e.target.value
-        });
-        console.log('Handle Form', formState);
-    }
-};
+    };
 
-return ( <
-    !--Contact Me-- >
-    <
-    section id = "contact-me"
-    class = "contact-me" >
-    <
-    img id = "contact-me-header"
-    src = "./assets/images/contactMe.png"
-    alt = "contact me header" /
-    >
-    <
-    ul >
-    <
-    li >
-    <
-    a href = "https://github.com/AmyShafer"
-    target = "_blank" > GitHub < /a> <
-    /li> <
-    li >
-    <
-    a href = "https://www.linkedin.com/in/amyushafer/"
-    target = "_blank" >
-    LinkedIn < /a >
-    <
-    /li> <
-    li >
-    <
-    a href = "mailto: amy.uno.shafer@gmail.com"
-    target = "_blank" > Gmail < /a> <
-    /li> <
-    li >
-    <
-    i class = "fa-solid fa-circle-arrow-down" > < /i >
-    < a href = "https://docs.google.com/document/d/1igq0QKsMxfM___oE69w5vd-pB5aptX1iaQ0xq224cj0/edit?usp=sharing"
-    target = "_blank" >
-    My Resume < /a >
-    <
-    /li> <
-    /ul> <
-    /section>
-);
+    return ( <
+        section id = "contact-me"
+        class = "contact-me" >
+        <
+        img id = "contact-me-header"
+        src = "./assets/images/contactMe.png"
+        alt = "contact me header" / >
+        <
+        ul >
+        <
+        li >
+        <
+        a href = "https://github.com/AmyShafer"
+        target = "_blank" > GitHub < /a> < /
+        li > <
+        li >
+        <
+        a href = "https://www.linkedin.com/in/amyushafer/"
+        target = "_blank" >
+        LinkedIn < /a > <
+        /li> <
+        li >
+        <
+        a href = "mailto: amy.uno.shafer@gmail.com"
+        target = "_blank" > Gmail < /a> < /
+        li > <
+        li >
+        <
+        i class = "fa-solid fa-circle-arrow-down" > < /i > <
+        a href = "https://docs.google.com/document/d/1igq0QKsMxfM___oE69w5vd-pB5aptX1iaQ0xq224cj0/edit?usp=sharing"
+        target = "_blank" >
+        My Resume < /a > <
+        /li> < /
+        ul > <
+        /section>
+    );
 }
 
 export default ContactForm;

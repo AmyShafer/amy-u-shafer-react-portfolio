@@ -29,7 +29,7 @@ function About() {
           </section>
         </section>
       </section>
-    )
+    );
 }
 
 export default About;
