@@ -37,15 +37,14 @@ function App() {
     currentPage = {
       currentPage
     } >
-    <
-    /Navigation> < /
-    Header > <
+    < /Navigation> <
+    /Header> <
     main >
     <
     Page currentPage = {
       currentPage
-    } > < /Page> < /
-    main > <
+    } > < /Page> </main >
+    <
     Footer / >
     <
     /div>
