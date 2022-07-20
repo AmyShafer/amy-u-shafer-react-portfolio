@@ -26,8 +26,8 @@ function Navigation(props) {
     <
     li id = "contact-me-link" > < a href = "#contact-me" > Contact Me < /a></li >
     <
-    /ul> <
-    /nav> <
+    /ul> < /
+    nav > <
     /section>
   );
 }
