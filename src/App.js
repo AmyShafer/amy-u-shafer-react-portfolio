@@ -1,41 +1,51 @@
 import React, {
   useState
 } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Header from './components/Header/Header';
-import About from './components/About/About';
-import Portfolio from './components/Portfolio/Portfolio';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Page from './components/Page';
+import Footer from './components/Footer';
 
 function App() {
-  const [currentPage, handlePageChange] = useState('About');
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'Portfolio':
-        return <Portfolio / > ;
-      case 'Contact':
-        return <Contact / > ;
-      default:
-        return <About / > ;
+  const [pages] = useState([{
+      name: "about"
+    },
+    {
+      name: "portfolio"
+    },
+    {
+      name: "contact"
+    },
+    {
+      name: "resume"
     }
-  };
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return ( <
-    div class = "main-container" >
+    div >
     <
-    Header currentPage = {
+    Header >
+    <
+    Navigation pages = {
+      pages
+    }
+    setCurrentPage = {
+      setCurrentPage
+    }
+    currentPage = {
       currentPage
-    }
-    handlePageChange = {
-      handlePageChange
-    }
-    /> <
-    main > {
-      renderPage(currentPage)
-    } < /main> <
+    } >
+    <
+    /Navigation> < /
+    Header > <
+    main >
+    <
+    Page currentPage = {
+      currentPage
+    } > < /Page> < /
+    main > <
     Footer / >
     <
     /div>
