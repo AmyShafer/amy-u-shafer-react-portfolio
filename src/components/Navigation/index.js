@@ -1,12 +1,15 @@
 import React, {
   useEffect
 } from 'react';
+import {
+  capitalizeFirstLetter
+} from '../../utils/helpers';
 
 function Navigation(props) {
   const {
-    pages = [];
-    setCurrentPage,
-    currentPage,
+    pages = [],
+      setCurrentPage,
+      currentPage,
   } = props;
 
   useEffect(() => {

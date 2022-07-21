@@ -32,10 +32,9 @@ function Page({
         h2 > {
             capitalizeFirstLetter(currentPage.name)
         } < /h2> <
-        PageContent > < {
+        PageContent > {
             renderPage()
-        }
-        /PageContent> <
+        } < /PageContent> <
         /section>
     );
 }

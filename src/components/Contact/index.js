@@ -1,6 +1,9 @@
 import React, {
     useState
 } from 'react';
+import {
+    validateEmail
+} from '../../utils.helpers';
 
 function ContactForm() {
     const [formState, setFormState] = useState({
@@ -67,8 +70,8 @@ function ContactForm() {
         <
         a href = "https://www.linkedin.com/in/amyushafer/"
         target = "_blank" >
-        LinkedIn < /a > <
-        /li> <
+        LinkedIn < /a > < /
+        li > <
         li >
         <
         a href = "mailto: amy.uno.shafer@gmail.com"
@@ -79,8 +82,8 @@ function ContactForm() {
         i class = "fa-solid fa-circle-arrow-down" > < /i > <
         a href = "https://docs.google.com/document/d/1igq0QKsMxfM___oE69w5vd-pB5aptX1iaQ0xq224cj0/edit?usp=sharing"
         target = "_blank" >
-        My Resume < /a > <
-        /li> < /
+        My Resume < /a > < /
+        li > < /
         ul > <
         /section>
     );
