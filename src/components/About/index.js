@@ -15,7 +15,7 @@ function About() {
     section id = "white-half2" >
     <
     img id = "amy-pic"
-    src = "./../assets/images/aShaferPort.png"
+    src = "../../assets/images/aShaferPort.png"
     alt = "Picture of Amy Shafer" /
     >
     <
