@@ -3,7 +3,7 @@ import React, {
 } from 'react';
 import {
     validateEmail
-} from '../../utils.helpers';
+} from '../../utils/helpers';
 
 function ContactForm() {
     const [formState, setFormState] = useState({

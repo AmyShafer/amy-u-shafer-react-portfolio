@@ -1,7 +1,7 @@
 const isLocalHost = Boolean(
     window.location.hostname === 'localhost' ||
     window.location.hostname === '[::1]' ||
-    window.location.hostname.match(/^127(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/)
+    window.location.hostname.match(/^127(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?){3}$/)
 );
 
 export function register(config) {
@@ -68,7 +68,7 @@ function checkValidServiceWorker(swUrl, config) {
             const contentType = response.headers.get('content-type');
             if (
                 response.status === 404 ||
-                contentType != null && contentType.indexOf('javascript') < 0) {
+                (contentType != null && contentType.indexOf('javascript') < 0)) {
                 navigator.serviceWorker.ready.then((registration) => {
                     registration.unregister().then(() => {
                         window.location.reload();
