@@ -42,12 +42,12 @@ function Project({
       repo
     } >
     <
-    /a> <
-    /h3> <
+    /a> < /
+    h3 > <
     p > {
       description
-    } < /p> <
-    /div> <
+    } < /p> < /
+    div > <
     /div>
   );
 }
