@@ -15,14 +15,14 @@ function About() {
     section id = "white-half2" >
     <
     img id = "amy-pic"
-    src = "../../assets/images/aShaferPort.png"
+    src = "./../../assets/images/aShaferPort.png"
     alt = "Picture of Amy Shafer" /
     >
     <
     section id = "about-me-text" >
     <
     img id = "about-me-header"
-    src = "../../assets/header/aboutMe.png"
+    src = "./../../assets/header/aboutMe.png"
     alt = "about-me-header" /
     >
     <
