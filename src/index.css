@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Homemade+Apple&family=Readex+Pro&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -115,7 +117,7 @@ main {
   width: 50%;
   height: 500px;
   justify-content: center;
-  background: black url("/assets/images/navBar.png") center no-repeat;
+  background: black url("./assets/images/navBar.png") center no-repeat;
 }
 
 /* Navigation Bar */
@@ -185,7 +187,7 @@ nav ul li a:hover {
   width: 30%;
   height: 500px;
   justify-content: center;
-  background: black url("/assets/images/black-paint.png") repeat;
+  background: black url("./assets/images/black-paint.png") repeat;
   z-index: -1;
 }
 
@@ -536,7 +538,7 @@ a {
   width: 65%;
   height: 500px;
   justify-content: center;
-  background: black url("/assets/images/black-paint.png") repeat;
+  background: black url("./assets/images/black-paint.png") repeat;
   z-index: -1;
 }
 
@@ -640,7 +642,7 @@ a {
   align-items: center;
   width: 100%;
   height: 700px;
-  background: black url("/assets/images/black-paint.png") repeat;
+  background: black url("./assets/images/black-paint.png") repeat;
   z-index: -1;
 }
 
