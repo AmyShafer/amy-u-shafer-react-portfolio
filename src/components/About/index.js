@@ -1,7 +1,9 @@
 import React from 'react';
+import profilePic from "../../assets/images/aShafer.png";
+import aboutMeHeader from "../../assets/header/aboutMe.png";
 
 function About() {
-  return ( <section id="about-me" class="about-me">
+  return ( <section id="about-me" className="about-me">
   <section id="moving-circles">
     <div id="blue-circle"></div>
     <div id="yellow-circle"></div>
@@ -11,13 +13,13 @@ function About() {
   <section id="white-half2">
     <img
       id="amy-pic"
-      src="%PUBLIC_URL%/assets/images/aShaferPort.png"
-      alt="Picture of Amy Shafer"
+      src={profilePic}
+      alt="Amy Shafer"
     />
     <section id="about-me-text">
       <img
         id="about-me-header"
-        src="%PUBLIC_URL%/assets/header/aboutMe.png"
+        src={aboutMeHeader}
         alt="about-me-header"
       />
       <p>
