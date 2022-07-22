@@ -2,6 +2,8 @@ import React from "react";
 import {
   removeHyphensAndCapitalize
 } from '../../utils/helpers';
+import blackPaintImg from "../../assets/images/black-paint.png";
+import workHeaderImg from "../../assets/header/work.png";
 
 
 function Project({
@@ -19,7 +21,7 @@ function Project({
     <section id="work-text">
       <img
         id="work-header"
-        src="%PUBLIC_URL%/assets/header/work.png"
+        src={workHeaderImg}
         alt="work-header"
       />
       <p>Here is my work so far:</p>
@@ -77,7 +79,7 @@ function Project({
       </div>
     </section>
   </section>
-  <section id="black-half3">
+  <section id="black-half3" style={{background: `black url (${blackPaintImg}) center no-repeat`}}>
     <div id="yellow-triangle" class="show"></div>
     <div id="blue-triangle" class="show"></div>
     <div id="pink-triangle" class="show"></div>

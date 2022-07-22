@@ -1,6 +1,7 @@
 import React from 'react';
 import profilePic from "../../assets/images/aShafer.png";
 import aboutMeHeader from "../../assets/header/aboutMe.png";
+import blackPaintImg from "../../assets/images/black-paint.png";
 
 function About() {
   return ( <section id="about-me" className="about-me">
@@ -9,7 +10,7 @@ function About() {
     <div id="yellow-circle"></div>
     <div id="pink-circle"></div>
   </section>
-  <section id="black-half2"></section>
+  <section id="black-half2" style={{background: `black url (${blackPaintImg}) center no-repeat`}}></section>
   <section id="white-half2">
     <img
       id="amy-pic"
