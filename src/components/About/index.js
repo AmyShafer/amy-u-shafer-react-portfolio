@@ -11,13 +11,13 @@ function About() {
   <section id="white-half2">
     <img
       id="amy-pic"
-      src="./assets/images/aShaferPort.png"
+      src="%PUBLIC_URL%/assets/images/aShaferPort.png"
       alt="Picture of Amy Shafer"
     />
     <section id="about-me-text">
       <img
         id="about-me-header"
-        src="./assets/images/aboutMe.png"
+        src="%PUBLIC_URL%/assets/header/aboutMe.png"
         alt="about-me-header"
       />
       <p>

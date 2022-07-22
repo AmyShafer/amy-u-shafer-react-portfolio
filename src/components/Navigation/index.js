@@ -13,10 +13,10 @@ function Navigation(props) {
   } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage.name);
+    document.title = capitalizeFirstLetter(currentPage);
   }, [currentPage]);
 
-  return (   <section id="black-half1">
+  return (   <section id="black-half1" style={{background:`black url("${process.env.PUBLIC_URL}/assets/images/navBar.png") center no-repeat;`}}>
   <nav>
     <ul>
       <li id="about-me-link"><a href="#about-me">About Me</a></li>

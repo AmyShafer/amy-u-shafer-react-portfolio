@@ -19,7 +19,7 @@ function Project({
     <section id="work-text">
       <img
         id="work-header"
-        src="/assets/header/work.png"
+        src="%PUBLIC_URL%/assets/header/work.png"
         alt="work-header"
       />
       <p>Here is my work so far:</p>
