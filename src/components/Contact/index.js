@@ -51,41 +51,24 @@ function ContactForm() {
         }
     };
 
-    return ( <
-        section id = "contact-me"
-        class = "contact-me" >
-        <
-        img id = "contact-me-header"
-        src = "./assets/images/contactMe.png"
-        alt = "contact me header" / >
-        <
-        ul >
-        <
-        li >
-        <
-        a href = "https://github.com/AmyShafer"
-        target = "_blank" > GitHub < /a> < /
-        li > <
-        li >
-        <
-        a href = "https://www.linkedin.com/in/amyushafer/"
-        target = "_blank" >
-        LinkedIn < /a > < /
-        li > <
-        li >
-        <
-        a href = "mailto: amy.uno.shafer@gmail.com"
-        target = "_blank" > Gmail < /a> < /
-        li > <
-        li >
-        <
-        i class = "fa-solid fa-circle-arrow-down" > < /i > <
-        a href = "https://docs.google.com/document/d/1igq0QKsMxfM___oE69w5vd-pB5aptX1iaQ0xq224cj0/edit?usp=sharing"
-        target = "_blank" >
-        My Resume < /a > < /
-        li > < /
-        ul > <
-        /section>
+    return ( 
+      <section id = "contact-me" class = "contact-me">
+        <img id = "contact-me-header" src = "/assets/images/contactMe.png" alt = "contact me header"/>
+          <ul>
+            <li>
+              <a href = "https://github.com/AmyShafer" target = "_blank" > GitHub </a>
+            </li >
+            <li>
+                <a href = "https://www.linkedin.com/in/amyushafer/" target = "_blank">LinkedIn</a></li>
+            <li>
+            <a href = "mailto: amy.uno.shafer@gmail.com" target = "_blank" >Gmail</a>
+            </li>
+            <li>
+            <i class = "fa-solid fa-circle-arrow-down"></i>
+                <a href = "https://docs.google.com/document/d/1igq0QKsMxfM___oE69w5vd-pB5aptX1iaQ0xq224cj0/edit?usp=sharing" target = "_blank">My Resume</a> 
+            </li> 
+        </ul> 
+      </section>
     );
 }
 

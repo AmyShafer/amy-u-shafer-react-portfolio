@@ -8,47 +8,49 @@ import Footer from './components/Footer';
 
 function App() {
   const [pages] = useState([{
-      name: "about"
-    },
-    {
-      name: "portfolio"
-    },
-    {
-      name: "contact"
-    },
-    {
-      name: "resume"
-    }
+    name: "about"
+  },
+  {
+    name: "portfolio"
+  },
+  {
+    name: "contact"
+  },
+  {
+    name: "resume"
+  }
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
-
-  return ( <
-    div >
-    <
-    Header >
-    <
-    Navigation pages = {
-      pages
-    }
-    setCurrentPage = {
-      setCurrentPage
-    }
-    currentPage = {
-      currentPage
-    } >
-    < /Navigation> <
-    /Header> <
-    main >
-    <
-    Page currentPage = {
-      currentPage
-    } > < /Page> </main >
-    <
-    Footer / >
-    <
-    /div>
-  );
+return ( <main>
+  <Header></Header>
+  <Navigation></Navigation>
+</main>)
+//   return (<
+//     div >
+//     <
+//     Header >
+//       <
+//         Navigation pages={
+//           pages
+        
+//         setCurrentPage={
+//           setCurrentPage
+//         }
+//         currentPage={
+//           currentPage
+//         } >
+//       </Navigation> </Header>
+//       <
+//     main>
+//         <Page currentPage={
+//           currentPage
+//         } > < /Page> </main >
+//         <
+//           Footer />
+//         <
+//     /div>
+//         );
+// }
 }
-
-export default App;
+        export default App;

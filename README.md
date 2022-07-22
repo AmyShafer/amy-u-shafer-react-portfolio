@@ -26,7 +26,7 @@ This website was built using React, JavaScript, jQuery, BootStrap, HTML, and CSS
 
 The following image shows the website is action!
 
-<img src="./assets/images/ausPort.gif" width="410" height="330" alt="Amy Shafer's Portfolio"/>
+<img src="/assets/images/ausPort.gif" width="410" height="330" alt="Amy Shafer's Portfolio"/>
 
 ## Resources-used
 
