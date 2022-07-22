@@ -22,35 +22,20 @@ function App() {
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
-return ( <main>
-  <Header></Header>
-  <Navigation></Navigation>
-</main>)
-//   return (<
-//     div >
-//     <
-//     Header >
-//       <
-//         Navigation pages={
-//           pages
-        
-//         setCurrentPage={
-//           setCurrentPage
-//         }
-//         currentPage={
-//           currentPage
-//         } >
-//       </Navigation> </Header>
-//       <
-//     main>
-//         <Page currentPage={
-//           currentPage
-//         } > < /Page> </main >
-//         <
-//           Footer />
-//         <
-//     /div>
-//         );
-// }
+return (
+  <div>
+    <Header>
+      <Navigation
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      ></Navigation>
+    </Header>
+    <main>
+      <Page currentPage={currentPage}></Page>
+    </main>
+    <Footer />
+  </div>
+  );
 }
         export default App;
