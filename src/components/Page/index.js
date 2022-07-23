@@ -1,5 +1,6 @@
 import React from 'react';
 import PageContent from '../PageContent';
+import Main from '../Main';
 import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
@@ -20,7 +21,7 @@ function Page({ currentPage }) {
             case 'resume':
                 return <Resume /> ;
             default:
-                return <About /> ;
+                return <Main /> ;
         }
     };
 

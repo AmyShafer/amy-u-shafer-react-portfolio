@@ -1,6 +1,7 @@
 import React, {
   useState
 } from 'react';
+import Main from './components/Main';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Page from './components/Page';
@@ -26,16 +27,15 @@ function App() {
   
 return (
   <div>
-    <Header>
-      <Navigation
+    <Main
         pages={pages}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
-      ></Navigation>
-    </Header>
-    <main>
+      >
+      </Main>
+    <section>
       <Page currentPage={currentPage}></Page>
-    </main>
+    </section>
   </div>
   );
 }
