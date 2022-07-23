@@ -8,34 +8,28 @@ import {
     capitalizeFirstLetter
 } from '../../utils/helpers';
 
-function Page({
-    currentPage
-}) {
+function Page({ currentPage }) {
     const renderPage = () => {
         switch (currentPage.name) {
             case 'about':
-                return <About / > ;
+                return <About />;
             case 'portfolio':
-                return <Portfolio / > ;
+                return <Portfolio /> ;
             case 'contact':
-                return <Contact / > ;
+                return <Contact /> ;
             case 'resume':
-                return <Resume / > ;
+                return <Resume /> ;
             default:
-                return <About / > ;
+                return <About /> ;
         }
     };
 
-    return ( <
-        section >
-        <
-        h2 > {
-            capitalizeFirstLetter(currentPage.name)
-        } < /h2> <
-        PageContent > {
+    return (
+        <section>
+          <h2> {capitalizeFirstLetter(currentPage.name)} </h2>
+          <PageContent> {
             renderPage()
-        } < /PageContent> <
-        /section>
+        } </PageContent> </section>
     );
 }
 

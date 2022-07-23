@@ -15,7 +15,7 @@ body {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
@@ -79,96 +79,32 @@ main {
 
 /* Animation for the Squares */
 @-webkit-keyframes rescale {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(36deg);
-  }
-
-  20% {
-    transform: rotate(72deg);
-  }
-
-  30% {
-    transform: rotate(108deg);
-  }
-
-  40% {
-    transform: rotate(144deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  60% {
-    transform: rotate(216deg);
-  }
-
-  70% {
-    transform: rotate(252deg);
-  }
-
-  80% {
-    transform: rotate(288deg);
-  }
-
-  90% {
-    transform: rotate(334deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
 }
 
 /* Animation for the Squares */
 @keyframes rescale {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(36deg);
-  }
-
-  20% {
-    transform: rotate(72deg);
-  }
-
-  30% {
-    transform: rotate(108deg);
-  }
-
-  40% {
-    transform: rotate(144deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  60% {
-    transform: rotate(216deg);
-  }
-
-  70% {
-    transform: rotate(252deg);
-  }
-
-  80% {
-    transform: rotate(288deg);
-  }
-
-  90% {
-    transform: rotate(334deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
 }
 
 /* Above the Fold Black Section */
@@ -179,7 +115,7 @@ main {
   width: 50%;
   height: 500px;
   justify-content: center;
-  /* background: black url("./assets/images/navBar.png") center no-repeat; */
+  background: black url("./assets/images/navBar.png") center no-repeat; 
 }
 
 /* Navigation Bar */
@@ -217,7 +153,6 @@ nav ul li a:hover {
   font-weight: 600;
   text-decoration: none;
 }
-
 
 #about-me-link {
   padding: 2em 0 6em 0;
@@ -388,97 +323,33 @@ nav ul li a:hover {
 }
 
 /* Animation for the Picture of Amy */
-@-webkit-keyframes pictureBop {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(5deg);
-  }
-
-  20% {
-    transform: rotate(7deg);
-  }
-
-  30% {
-    transform: rotate(10deg);
-  }
-
-  40% {
-    transform: rotate(7deg);
-  }
-
-  50% {
-    transform: rotate(5deg);
-  }
-
-  60% {
-    transform: rotate(2deg);
-  }
-
-  70% {
-    transform: rotate(0deg);
-  }
-
-  80% {
-    transform: rotate(-1deg);
-  }
-
-  90% {
-    transform: rotate(-3deg);
-  }
-
-  100% {
-    transform: rotate(-5deg);
-  }
+@-webkit-keyframes pictureBop  {
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(5deg);}
+  20% {transform:rotate(7deg);}
+  30% {transform:rotate(10deg);}
+  40% {transform:rotate(7deg);}
+  50% {transform:rotate(5deg);}
+  60% {transform:rotate(2deg);}
+  70% {transform:rotate(0deg);}
+  80% {transform:rotate(-1deg);}
+  90% {transform:rotate(-3deg);}
+  100% {transform:rotate(-5deg);}
 }
 
-/* Animation for the Picture of Amy */
-@keyframes pictureBop {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(5deg);
-  }
-
-  20% {
-    transform: rotate(7deg);
-  }
-
-  30% {
-    transform: rotate(10deg);
-  }
-
-  40% {
-    transform: rotate(7deg);
-  }
-
-  50% {
-    transform: rotate(5deg);
-  }
-
-  60% {
-    transform: rotate(2deg);
-  }
-
-  70% {
-    transform: rotate(0deg);
-  }
-
-  80% {
-    transform: rotate(-1deg);
-  }
-
-  90% {
-    transform: rotate(-3deg);
-  }
-
-  100% {
-    transform: rotate(-5deg);
-  }
+/* Animation for the Triangles */
+@-webkit-keyframes rescale {
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
 }
 
 #about-me-text {
@@ -722,95 +593,31 @@ a {
 
 /* Animation for the Triangles */
 @-webkit-keyframes rescale {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(36deg);
-  }
-
-  20% {
-    transform: rotate(72deg);
-  }
-
-  30% {
-    transform: rotate(108deg);
-  }
-
-  40% {
-    transform: rotate(144deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  60% {
-    transform: rotate(216deg);
-  }
-
-  70% {
-    transform: rotate(252deg);
-  }
-
-  80% {
-    transform: rotate(288deg);
-  }
-
-  90% {
-    transform: rotate(334deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
 }
 
 @keyframes rescale {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(36deg);
-  }
-
-  20% {
-    transform: rotate(72deg);
-  }
-
-  30% {
-    transform: rotate(108deg);
-  }
-
-  40% {
-    transform: rotate(144deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  60% {
-    transform: rotate(216deg);
-  }
-
-  70% {
-    transform: rotate(252deg);
-  }
-
-  80% {
-    transform: rotate(288deg);
-  }
-
-  90% {
-    transform: rotate(334deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+  0% {transform:rotate(0deg);}
+  10% {transform:rotate(36deg);}
+  20% {transform:rotate(72deg);}
+  30% {transform:rotate(108deg);}
+  40% {transform:rotate(144deg);}
+  50% {transform:rotate(180deg);}
+  60% {transform:rotate(216deg);}
+  70% {transform:rotate(252deg);}
+  80% {transform:rotate(288deg);}
+  90% {transform:rotate(334deg);}
+  100% {transform:rotate(360deg);}
 }
 
 /* After the user selects a project to view, the triangles change to a gif of the project */
@@ -874,19 +681,15 @@ a {
 /* Media Queries for Mobile */
 @media screen and (max-width: 600px) {
 
-  #white-half1,
-  #black-half1 {
+  #white-half1, #black-half1 {
     width: 100%;
   }
 
-  #black-half2,
-  #white-half2 {
+  #black-half2, #white-half2 {
     width: 100%;
   }
 
-  #blue-circle,
-  #yellow-circle,
-  #pink-circle {
+  #blue-circle, #yellow-circle, #pink-circle {
     width: 30px;
     height: 30px;
   }
@@ -924,20 +727,15 @@ a {
 
 /* Media Queries for iPads */
 @media screen and (max-width: 768px) {
-
-  #white-half1,
-  #black-half1 {
+  #white-half1, #black-half1 {
     width: 100%;
   }
 
-  #black-half2,
-  #white-half2 {
+  #black-half2, #white-half2 {
     width: 100%;
   }
 
-  #blue-circle,
-  #yellow-circle,
-  #pink-circle {
+  #blue-circle, #yellow-circle, #pink-circle {
     width: 30px;
     height: 30px;
   }
@@ -957,8 +755,7 @@ a {
     height: 1200px;
   }
 
-  #white-half3,
-  #black-half3 {
+  #white-half3, #black-half3 {
     width: 100%;
   }
 

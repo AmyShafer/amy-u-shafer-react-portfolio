@@ -4,7 +4,6 @@ import React, {
 import {
   capitalizeFirstLetter
 } from '../../utils/helpers';
-import blackPaintImg from "../../assets/images/navBar.png";
 
 function Navigation(props) {
   const {
@@ -18,7 +17,7 @@ function Navigation(props) {
   }, [currentPage]);
 
   return (
-    <section id="black-half1" style={{background: `black url (${blackPaintImg}) center no-repeat`}}>
+    <section id="black-half1">
       <nav>
         <ul>
           <li id="about-me-link"><a href="#about-me">About Me</a></li>

@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePic from "../../assets/images/aShafer.png";
-import aboutMeHeader from "../../assets/header/aboutMe.png";
+import aboutMeHeaderImg from "../../assets/header/aboutMe.png";
 import blackPaintImg from "../../assets/images/black-paint.png";
 
 function About() {
@@ -20,7 +20,7 @@ function About() {
     <section id="about-me-text">
       <img
         id="about-me-header"
-        src={aboutMeHeader}
+        src={aboutMeHeaderImg}
         alt="about-me-header"
       />
       <p>
