@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/amy-u-shafer-react-portfolio/static/css/main.e8b27632.chunk.css",
-    "main.js": "/amy-u-shafer-react-portfolio/static/js/main.e51deda0.chunk.js",
-    "main.js.map": "/amy-u-shafer-react-portfolio/static/js/main.e51deda0.chunk.js.map",
+    "main.css": "/amy-u-shafer-react-portfolio/static/css/main.fd52a7b3.chunk.css",
+    "main.js": "/amy-u-shafer-react-portfolio/static/js/main.fc37e253.chunk.js",
+    "main.js.map": "/amy-u-shafer-react-portfolio/static/js/main.fc37e253.chunk.js.map",
     "runtime-main.js": "/amy-u-shafer-react-portfolio/static/js/runtime-main.4c886d91.js",
     "runtime-main.js.map": "/amy-u-shafer-react-portfolio/static/js/runtime-main.4c886d91.js.map",
     "static/js/2.2fc22af9.chunk.js": "/amy-u-shafer-react-portfolio/static/js/2.2fc22af9.chunk.js",
     "static/js/2.2fc22af9.chunk.js.map": "/amy-u-shafer-react-portfolio/static/js/2.2fc22af9.chunk.js.map",
     "index.html": "/amy-u-shafer-react-portfolio/index.html",
-    "static/css/main.e8b27632.chunk.css.map": "/amy-u-shafer-react-portfolio/static/css/main.e8b27632.chunk.css.map",
+    "static/css/main.fd52a7b3.chunk.css.map": "/amy-u-shafer-react-portfolio/static/css/main.fd52a7b3.chunk.css.map",
     "static/js/2.2fc22af9.chunk.js.LICENSE.txt": "/amy-u-shafer-react-portfolio/static/js/2.2fc22af9.chunk.js.LICENSE.txt",
+    "static/media/aShafer.bbe16bed.png": "/amy-u-shafer-react-portfolio/static/media/aShafer.bbe16bed.png",
+    "static/media/aboutMe.6ff348de.png": "/amy-u-shafer-react-portfolio/static/media/aboutMe.6ff348de.png",
     "static/media/index.css": "/amy-u-shafer-react-portfolio/static/media/navBar.236f007c.png",
-    "static/media/cs-quiz.gif": "/amy-u-shafer-react-portfolio/static/media/cs-quiz.ec2757b1.gif",
-    "static/media/mad-archers.gif": "/amy-u-shafer-react-portfolio/static/media/mad-archers.8846e846.gif",
-    "static/media/scheduler666.gif": "/amy-u-shafer-react-portfolio/static/media/scheduler666.005e21b5.gif",
-    "static/media/weather-girls-app.gif": "/amy-u-shafer-react-portfolio/static/media/weather-girls-app.8b6497d3.gif"
+    "static/media/contactMe.ee26336d.png": "/amy-u-shafer-react-portfolio/static/media/contactMe.ee26336d.png",
+    "static/media/cs-quiz.ec2757b1.gif": "/amy-u-shafer-react-portfolio/static/media/cs-quiz.ec2757b1.gif",
+    "static/media/mad-archers.8846e846.gif": "/amy-u-shafer-react-portfolio/static/media/mad-archers.8846e846.gif",
+    "static/media/scheduler666.005e21b5.gif": "/amy-u-shafer-react-portfolio/static/media/scheduler666.005e21b5.gif",
+    "static/media/weather-girls-app.8b6497d3.gif": "/amy-u-shafer-react-portfolio/static/media/weather-girls-app.8b6497d3.gif",
+    "static/media/work.062b9dbf.png": "/amy-u-shafer-react-portfolio/static/media/work.062b9dbf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4c886d91.js",
     "static/js/2.2fc22af9.chunk.js",
-    "static/css/main.e8b27632.chunk.css",
-    "static/js/main.e51deda0.chunk.js"
+    "static/css/main.fd52a7b3.chunk.css",
+    "static/js/main.fc37e253.chunk.js"
   ]
 }
