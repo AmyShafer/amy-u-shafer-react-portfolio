@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Page from './components/Page';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [pages] = useState([{
@@ -35,7 +36,6 @@ return (
     <main>
       <Page currentPage={currentPage}></Page>
     </main>
-    <Footer />
   </div>
   );
 }
