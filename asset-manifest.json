@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/amy-u-shafer-react-portfolio/static/css/main.674c1e20.chunk.css",
-    "main.js": "/amy-u-shafer-react-portfolio/static/js/main.4a1358ff.chunk.js",
-    "main.js.map": "/amy-u-shafer-react-portfolio/static/js/main.4a1358ff.chunk.js.map",
+    "main.js": "/amy-u-shafer-react-portfolio/static/js/main.7166d1fb.chunk.js",
+    "main.js.map": "/amy-u-shafer-react-portfolio/static/js/main.7166d1fb.chunk.js.map",
     "runtime-main.js": "/amy-u-shafer-react-portfolio/static/js/runtime-main.4c886d91.js",
     "runtime-main.js.map": "/amy-u-shafer-react-portfolio/static/js/runtime-main.4c886d91.js.map",
     "static/js/2.c41dca8a.chunk.js": "/amy-u-shafer-react-portfolio/static/js/2.c41dca8a.chunk.js",
@@ -14,16 +14,12 @@
     "static/media/aboutMe.6ff348de.png": "/amy-u-shafer-react-portfolio/static/media/aboutMe.6ff348de.png",
     "static/media/index.css": "/amy-u-shafer-react-portfolio/static/media/navBar.236f007c.png",
     "static/media/contactMe.ee26336d.png": "/amy-u-shafer-react-portfolio/static/media/contactMe.ee26336d.png",
-    "static/media/cs-quiz.ec2757b1.gif": "/amy-u-shafer-react-portfolio/static/media/cs-quiz.ec2757b1.gif",
-    "static/media/mad-archers.8846e846.gif": "/amy-u-shafer-react-portfolio/static/media/mad-archers.8846e846.gif",
-    "static/media/scheduler666.005e21b5.gif": "/amy-u-shafer-react-portfolio/static/media/scheduler666.005e21b5.gif",
-    "static/media/weather-girls-app.8b6497d3.gif": "/amy-u-shafer-react-portfolio/static/media/weather-girls-app.8b6497d3.gif",
     "static/media/work.062b9dbf.png": "/amy-u-shafer-react-portfolio/static/media/work.062b9dbf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4c886d91.js",
     "static/js/2.c41dca8a.chunk.js",
     "static/css/main.674c1e20.chunk.css",
-    "static/js/main.4a1358ff.chunk.js"
+    "static/js/main.7166d1fb.chunk.js"
   ]
 }
