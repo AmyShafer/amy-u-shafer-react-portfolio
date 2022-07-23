@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/amy-u-shafer-react-portfolio/static/css/main.fd52a7b3.chunk.css",
-    "main.js": "/amy-u-shafer-react-portfolio/static/js/main.74f7e5ff.chunk.js",
-    "main.js.map": "/amy-u-shafer-react-portfolio/static/js/main.74f7e5ff.chunk.js.map",
+    "main.css": "/amy-u-shafer-react-portfolio/static/css/main.56954fd7.chunk.css",
+    "main.js": "/amy-u-shafer-react-portfolio/static/js/main.9d795916.chunk.js",
+    "main.js.map": "/amy-u-shafer-react-portfolio/static/js/main.9d795916.chunk.js.map",
     "runtime-main.js": "/amy-u-shafer-react-portfolio/static/js/runtime-main.4c886d91.js",
     "runtime-main.js.map": "/amy-u-shafer-react-portfolio/static/js/runtime-main.4c886d91.js.map",
     "static/js/2.2fc22af9.chunk.js": "/amy-u-shafer-react-portfolio/static/js/2.2fc22af9.chunk.js",
     "static/js/2.2fc22af9.chunk.js.map": "/amy-u-shafer-react-portfolio/static/js/2.2fc22af9.chunk.js.map",
     "index.html": "/amy-u-shafer-react-portfolio/index.html",
-    "static/css/main.fd52a7b3.chunk.css.map": "/amy-u-shafer-react-portfolio/static/css/main.fd52a7b3.chunk.css.map",
+    "static/css/main.56954fd7.chunk.css.map": "/amy-u-shafer-react-portfolio/static/css/main.56954fd7.chunk.css.map",
     "static/js/2.2fc22af9.chunk.js.LICENSE.txt": "/amy-u-shafer-react-portfolio/static/js/2.2fc22af9.chunk.js.LICENSE.txt",
     "static/media/aShafer.bbe16bed.png": "/amy-u-shafer-react-portfolio/static/media/aShafer.bbe16bed.png",
     "static/media/aboutMe.6ff348de.png": "/amy-u-shafer-react-portfolio/static/media/aboutMe.6ff348de.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.4c886d91.js",
     "static/js/2.2fc22af9.chunk.js",
-    "static/css/main.fd52a7b3.chunk.css",
-    "static/js/main.74f7e5ff.chunk.js"
+    "static/css/main.56954fd7.chunk.css",
+    "static/js/main.9d795916.chunk.js"
   ]
 }
